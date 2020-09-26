@@ -7,3 +7,5 @@ while True:
     cv.imshow("Video",img)
     if ( cv.waitKey(1) & 0xFF == ord('q') ):
         break
+vid.release()
+cv.destroyAllWindows()

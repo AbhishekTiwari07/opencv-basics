@@ -1,5 +1,4 @@
 import cv2 as cv
-print("package imported")
 
 img = cv.imread("resources/testSubject.jpeg")
 
